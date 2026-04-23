@@ -1,5 +1,4 @@
 #include <iostream>
-#include <windows.h>
 using namespace std;
 
 // Базовый класс
@@ -32,10 +31,7 @@ public:
     }
 };
 
-int main() {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
-
+void demo_virtual_methods() {
     cout << "Создаём Circle через указатель на Shape\n";
     Shape* s = new Circle();
 
@@ -63,6 +59,4 @@ int main() {
     cout << "\nУдаляем через Circle*:\n";
     delete c;
     // Оба деструктора вызовутся в правильном порядке
-
-    return 0;
 }

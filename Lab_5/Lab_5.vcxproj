@@ -123,7 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab_5.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="virtual_methods.cpp" />
+    <ClCompile Include="virtual_destructor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
