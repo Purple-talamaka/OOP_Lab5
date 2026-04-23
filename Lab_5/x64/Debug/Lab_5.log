@@ -1,5 +1,4 @@
 ﻿  main.cpp
-  virtual_methods.cpp
-  virtual_destructor.cpp
+  type_check.cpp
   Создание кода...
   Lab_5.vcxproj -> D:\Универ\ПРО\6 семестр\ООП\1-5 lab\5_Laba\Lab_5\x64\Debug\Lab_5.exe
