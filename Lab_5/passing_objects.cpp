@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+namespace passing {
+
 class Base {
 public:
     string name;
@@ -24,7 +26,7 @@ void func1(Base obj)  { cout << "  func1: внутри функции\n"; }
 void func2(Base* obj) { cout << "  func2: внутри функции\n"; }
 void func3(Base& obj) { cout << "  func3: внутри функции\n"; }
 
-void demo_passing_objects() {
+void run() {
     cout << "Создаём объекты:\n";
     Base b;
     Desc d;
@@ -51,3 +53,7 @@ void demo_passing_objects() {
 
     cout << "\nВыходим из функции:\n";
 }
+
+} // namespace passing
+
+void demo_passing_objects() { passing::run(); }

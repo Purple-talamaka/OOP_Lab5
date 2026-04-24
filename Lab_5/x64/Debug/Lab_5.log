@@ -1,2 +1,11 @@
-﻿  passing_objects.cpp
+﻿  main.cpp
+  passing_objects.cpp
+  returning_objects.cpp
+  smart_pointers.cpp
+  type_check.cpp
+  virtual_methods.cpp
+  virtual_destructor.cpp
+  Создание кода...
+D:\Универ\ПРО\6 семестр\ООП\1-5 lab\5_Laba\Lab_5\Lab_5\returning_objects.cpp(32,1): warning C4172: возвращаемый адрес локальной переменной или временного : obj
+D:\Универ\ПРО\6 семестр\ООП\1-5 lab\5_Laba\Lab_5\Lab_5\returning_objects.cpp(25,1): warning C4172: возвращаемый адрес локальной переменной или временного : obj
   Lab_5.vcxproj -> D:\Универ\ПРО\6 семестр\ООП\1-5 lab\5_Laba\Lab_5\x64\Debug\Lab_5.exe

@@ -125,6 +125,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="passing_objects.cpp" />
+    <ClCompile Include="returning_objects.cpp" />
+    <ClCompile Include="smart_pointers.cpp" />
     <ClCompile Include="type_check.cpp" />
     <ClCompile Include="virtual_methods.cpp" />
     <ClCompile Include="virtual_destructor.cpp" />

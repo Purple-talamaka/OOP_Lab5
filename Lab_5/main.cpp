@@ -6,6 +6,8 @@ void demo_virtual_methods();
 void demo_virtual_destructor();
 void demo_type_check();
 void demo_passing_objects();
+void demo_returning_objects();
+void demo_smart_pointers();
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
@@ -18,6 +20,8 @@ int main() {
         cout << "2. Виртуальный деструктор\n";
         cout << "3. Проверка типа (classname, isA, dynamic_cast)\n";
         cout << "4. Передача объектов в функции\n";
+        cout << "5. Возврат объектов из функций\n";
+        cout << "6. Умные указатели\n";
         cout << "0. Выход\n";
         cout << "Выбор: ";
         cin >> choice;
@@ -27,6 +31,8 @@ int main() {
             case 2: demo_virtual_destructor(); break;
             case 3: demo_type_check();         break;
             case 4: demo_passing_objects();    break;
+            case 5: demo_returning_objects();  break;
+            case 6: demo_smart_pointers();     break;
             case 0: return 0;
             default: cout << "Неверный выбор\n";
         }
